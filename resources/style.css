@@ -11,6 +11,7 @@ header {
   height: 80px;
   border-bottom: 1px solid black;
   align-items: center;
+  position: fixed;
 }
 
 header nav {
@@ -26,6 +27,39 @@ nav a {
   color: black;
 }
 
+main {
+
+}
+
+.content {
+  display: flex;
+  padding-top: 116px;
+  width: 1230px;
+  margin: 0 auto 78px auto;  
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.stories {
+}
+
 .logo {
   padding-left: 30px;
   flex-grow: 1;
@@ -36,4 +70,12 @@ nav a {
 .logo span{
   color: MediumAquamarine;
   padding-left: 15px;
+}
+
+.image-content {
+  border: 1px solid black;
+}
+
+div {
+  border: 1px solid black;
 }
