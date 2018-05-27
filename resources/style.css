@@ -35,7 +35,7 @@ main {
   display: flex;
   padding-top: 116px;
   width: 1230px;
-  margin: 0 auto 78px auto;  
+  margin: 0 auto 78px auto;
 }
 
 .column {
@@ -58,6 +58,9 @@ main {
 }
 
 .stories {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .logo {
@@ -73,7 +76,25 @@ main {
 }
 
 .image-content {
-  border: 1px solid black;
+  background-image: url(file:///Users/kenessa/Desktop/CODE-projects/mytimes/resources/images/img-story-main.png);
+  font-size: 30px;
+  text-align: left;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  height: 300px;
+}
+
+.fall-cancelled.image-content {
+  background-image: url(file:///Users/kenessa/Desktop/CODE-projects/mytimes/resources/images/img-story-2.png);
+}
+
+.camera-research.image-content {
+  background-image: url(file:///Users/kenessa/Desktop/CODE-projects/mytimes/resources/images/img-story-3.png);
+}
+
+.cats-control.image-content {
+  background-image: url(file:///Users/kenessa/Desktop/CODE-projects/mytimes/resources/images/img-story-1.png);
 }
 
 div {
