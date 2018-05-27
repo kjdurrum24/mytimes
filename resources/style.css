@@ -1,5 +1,7 @@
 body {
-
+ font-family: Georgia;
+ font-size: 17px;
+ color: black;
 }
 
 header {
@@ -12,6 +14,8 @@ header {
   border-bottom: 1px solid black;
   align-items: center;
   position: fixed;
+  z-index: 1;
+  background-color: white;
 }
 
 header nav {
@@ -34,7 +38,7 @@ main {
 .content {
   display: flex;
   padding-top: 116px;
-  width: 1230px;
+  width: 1232px;
   margin: 0 auto 78px auto;
 }
 
@@ -57,10 +61,28 @@ main {
   width: 240px;
 }
 
+.lead-story {
+  margin-left: 20px;
+}
+
 .stories {
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 17px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.stories .text-content {
+  height: 250px;
+}
+
+.narrative {
+  margin-top: 16px;
 }
 
 .logo {
@@ -76,14 +98,29 @@ main {
 }
 
 .image-content {
-  background-image: url(file:///Users/kenessa/Desktop/CODE-projects/mytimes/resources/images/img-story-main.png);
   font-size: 30px;
-  text-align: left;
   color: white;
   font-family: Georgia;
   font-weight: bold;
   height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  justify-content: center;
+  text-align: center;
 }
+
+.lead-story .image-content {
+  background-image: url(file:///Users/kenessa/Desktop/CODE-projects/mytimes/resources/images/img-story-main.png);
+   width: 630px;
+   font-size: 40px;
+   text-align: left;
+}
+
+.lead-story .image-content span {
+  margin-left: 20px;
+}
+
 
 .fall-cancelled.image-content {
   background-image: url(file:///Users/kenessa/Desktop/CODE-projects/mytimes/resources/images/img-story-2.png);
@@ -97,6 +134,15 @@ main {
   background-image: url(file:///Users/kenessa/Desktop/CODE-projects/mytimes/resources/images/img-story-1.png);
 }
 
+.news-bites .bite {
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  color: DimGray;
+}
+
 div {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
